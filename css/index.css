@@ -258,3 +258,18 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+/* fixed buttons */
+
+.fixedButton {
+    z-index: 1000;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
