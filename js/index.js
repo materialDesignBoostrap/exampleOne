@@ -1,4 +1,4 @@
-// Closes the sidebar menu
+// Closes the sidebar menu-close
 $("#menu-close").click(function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
